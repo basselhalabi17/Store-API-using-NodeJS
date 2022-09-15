@@ -26,7 +26,7 @@ const start = async ()=>{
         })
     }
     catch(error){
-        res.status(500).json({msg:error})
+        console.log(error)
     }
 }
 
